@@ -1,4 +1,4 @@
-node('master') {
+node('linux-servers') {
 	stage ('checkout code'){
 		checkout scm
 	}
